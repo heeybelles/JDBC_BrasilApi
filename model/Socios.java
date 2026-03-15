@@ -2,7 +2,7 @@ package br.edu.fatecpg.projetojdbcapi.model;
 
 public class Socios {
     private String nome_socio;
-    private String cnpj_cpf_do_socio; // Nome igual ao da API
+    private String cnpj_cpf_do_socio; 
     private String qualificacao_socio;
 
     public Socios(String nome_socio, String cnpj_cpf_do_socio, String qualificacao_socio) {
@@ -19,7 +19,7 @@ public class Socios {
         this.nome_socio = nome_socio;
     }
 
-    // Ajustei o nome do método para bater com o atributo
+  
     public String getCnpj_cpf_do_socio() {
         return cnpj_cpf_do_socio;
     }
